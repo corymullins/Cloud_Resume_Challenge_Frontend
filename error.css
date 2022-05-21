@@ -1,0 +1,57 @@
+body {
+    background-image: url("404.jpg");
+    background-color: darkslategrey;
+    background-size: cover;
+}
+
+html {
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-family: helvetica;
+    font-size: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+h2 {
+    text-shadow: 2px 2px 3px red;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+    text-shadow: -2px -2px 3px white;
+}
+
+a.visited {
+    color: inherit;
+}
+
+a:focus {
+    background: rgb(58, 58, 58);
+    text-shadow: 0px 0px white;
+    color: white;
+}
+
+a:hover {
+    background: rgb(58, 58, 58);
+    text-shadow: 0px 0px white;
+    text-transform: uppercase;
+    color: white;
+}
+
+a:active {
+    background: rgb(58, 58, 58);
+    text-shadow: 0px 0px white;
+    text-transform: uppercase;
+    color: white;
+}
+
+.error {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
