@@ -9,6 +9,15 @@
 </head>
 
 <body>
+    <div class="menu">
+        <select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+            <option value="">Select...</option>
+            <option value="https://www.corymullins.com">Resume</option>
+            <option value="">Projects</option>
+            <option value="https://cmullinstech.wordpress.com/">Blog</option>
+        </select>
+        <span class="menu-arrow"></span>
+    </div>
     <div class="resume">
         <div class="column-1">
             <section class="profile">
@@ -55,6 +64,7 @@
                                 <li>Linux</li>
                                 <li>Windows Server</li>
                                 <li>AWS</li>
+                                <li>Terraform</li>
                             </ul>
                         </div>
                     </li>
@@ -73,8 +83,8 @@
             <section class="projects">
                 <h2>Projects</h2>
                 <ul>
-                    <li>Resume deployment via Terraform</li>
-                    <li>SSH honeypot via Terraform and Python</li>
+                    <li><a href="https://dev.to/corymullins/cloud-resume-challenge-summary-47do" alt="Cloud Resume Challenge Summary">Resume deployment via Terraform</a></li>
+                    <li><a href="https://github.com/corymullins/basic_ssh_honeypot" alt="SSH Honeypot">SSH honeypot written in Python</a></li>
 
                 </ul>
             </section>
@@ -172,7 +182,7 @@
                         <span class="duration">Apr 2014 - Mar 2018</span>
                         <div class="content">
                             <h3>Safety Instrumented System/Greenhouse Gas Instrumentation Foreman</h3>
-                            <h4>Newtron Inc., <em>Martinez, CA</em></h4>
+                            <h4>Newtron, Inc., <em>Martinez, CA</em></h4>
                             <p>Oversaw and managed a team of safety instrumented system (SIS) and greenhouse gas (GHG)
                                 instrumentation technicians to guarantee smooth running of functions. Adopted best
                                 practices to assure effective management of client trouble ticket system as well as
